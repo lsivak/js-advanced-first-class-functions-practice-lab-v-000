@@ -1,6 +1,6 @@
-const logDriverNames = function (drivers) {
+const logDriverNames = function (driversCopy) {
   const names = []
-  drivers.forEach(function (driver) {
+  driversCopy.forEach(function (driver) {
     debugger
     names.push(driver.name)
   });
