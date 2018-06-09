@@ -2,7 +2,7 @@ function logDriverNames(drivers) {
   const names = []
   drivers.forEach(function (driver) {
     debugger
-    names.push (drivers.name)
+    names.push (driver.name)
   });
   return names;
 }
