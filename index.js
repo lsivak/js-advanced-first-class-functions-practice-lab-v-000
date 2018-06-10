@@ -15,3 +15,9 @@ const driversByRevenue = function(drivers) {
     return a.revenue - b.revenue
 })
 }
+
+const driversByName = function(drivers) {
+  drivers.sort(function(a,b) {
+    return a.localeCompare(b)
+  })
+}
