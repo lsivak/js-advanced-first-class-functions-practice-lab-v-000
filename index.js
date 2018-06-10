@@ -30,4 +30,10 @@ const totalRevenue = function(drivers) {
   return totRev
 }
 
-const averageRevenue = totalRevenue / drivers.length
+const averageRevenue = function(drivers) {
+  let totRev = 0;
+  drivers.forEach(function(driver) {
+    totRev += driver.revenue
+  })
+  return totRev / drivers.length
+}
