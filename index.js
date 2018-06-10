@@ -4,12 +4,12 @@ console.log(driver.name)
 })
 }
 
-const logDriversByHometown = function(drivers, locations) {
-drivers.forEach(function (driver, location) {
+const logDriversByHometown = drivers.find(function(drivers, locations) {
+
   return driver.hometown === location
 console.log(driver.name)
-});
-}
+})
+
 const driversByRevenue = function(drivers) {
   drivers.forEach(function (driver, revenue) {
     driver.revenue.sort()
