@@ -6,6 +6,7 @@ console.log(driver.name)
 
 const logDriversByHometown = function(drivers, locations) {
 drivers.find(function (driver, location) {
+  debugger
   return driver.hometown === location
 console.log(driver.name)
 });
