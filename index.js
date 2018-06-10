@@ -4,7 +4,7 @@ console.log(driver.name)
 })
 }
 
-const logDriversByHometown = function(drivers, hometowns) {
+const logDriversByHometown = function(drivers, hometown) {
 drivers.find(function (driver, hometown) {
   debugger
   return driver.hometown === hometown
