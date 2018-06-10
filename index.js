@@ -13,7 +13,7 @@ console.log(driver.name)
 const driversByRevenue = function(drivers) {
   drivers.forEach(function (driver) {
     debugger
-    drivers.sort(revenue)
+    driver.revenue.sort()
     return driver.name
   })
 }
