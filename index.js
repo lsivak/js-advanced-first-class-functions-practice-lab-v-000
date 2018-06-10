@@ -11,6 +11,6 @@ console.log(driver.name)
 });
 }
 const driversByRevenue = function(drivers) {
-  revenue.sort(function(a,b) {return a-b})
+  drivers.sort(function(a,b) {return a.revenue - b.revenue})
 debugger
 }
